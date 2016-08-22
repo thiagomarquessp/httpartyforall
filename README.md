@@ -43,7 +43,7 @@ cucumber/features/support/env.rb
 ```
 Cucumber será a base da nossa automação, utilizando Gherkin para escrita dos arquivos .features (veremos mais pra frente).
 
-HTTParty será o framework de desenvolvimento dos testes na cadada de serviços (foco em POST, GET, PUT e DELETE).
+HTTParty será o framework de desenvolvimento dos testes na camada de serviços (foco em POST, GET, PUT e DELETE).
 
 Vamos criar um arquivo chamado Gemfile da seguinte maneira: 
 
