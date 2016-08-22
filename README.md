@@ -54,10 +54,9 @@ gem "cucumber"
 gem "faker"
 gem "httparty"
 
-Faker eu vou usar para criar dados aleatórios: ver [Faker no Capybara For All] (https://goo.gl/6TWqyP) para entendê-lo.
-
 Agora, vamos rodar o comando "bundle install" para instalar as gems que farão parte do nosso projeto.
 ```
+Faker eu vou usar para criar dados aleatórios: ver [Faker no Capybara For All] (https://goo.gl/6TWqyP) para entendê-lo.
 
 Obs.: Para entender o contexto do bundler basta entender que ele vai ler o arquivo Gemfile e vai procurar no rubygems as gems que eu citei e vai instalá-las com as suas dependências. O comando a seguir fara isso:
 
