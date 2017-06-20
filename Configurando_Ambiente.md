@@ -116,3 +116,5 @@ require "faker"
 Onde, require "gem a ser utilizada" eu estou falando que para rodar esse projeto, eu estou utilizando essa gem.
 
 Dica: Tem os requires no arquivo env.rb eu tenho que ter TODAS as gems instaladas no meu computador e/ou ambiente de trabalho.
+
+Agora podemos ir para o próximo [tópico](https://github.com/thiagomarquessp/httpartyforall/blob/master/Fake_api.md), onde vamos falar sobre criar um endpoint para que possamos estudar e aplicar os conceitos.
