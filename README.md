@@ -14,7 +14,7 @@ A estrutura desse artigo vai ser dividida da seguinte maneira:
 
 1. Conhecendo os serviços REST;
 2. [Configurando o ambiente de trabalho;](https://github.com/thiagomarquessp/httpartyforall/blob/master/Configurando_Ambiente.md)
-3. [Criando seus próprios endpoints](https://github.com/thiagomarquessp/httpartyforall/blob/master/Fake_api.md);
+3. [Criando seus endpoint para estudos](https://github.com/thiagomarquessp/httpartyforall/blob/master/Fake_api.md);
 4. Criando arquivos de Feature;
 5. Criando arquivos de steps;
 6. Executando os os testes.
