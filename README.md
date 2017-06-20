@@ -8,9 +8,12 @@ Há algum tempo venho estudando e me especializando um pouco em testes na camada
 
 Eu vou focar aqui a automação em serviços REST e vou focar nos mais comuns (GET, POST, PUT, DELETE), mas conceitualmente falando, se aplica também para todos os verbos Ok.
 
+Vou utilizar e auxiliar na criação de endpoints Fakes na própria máquina para que tu possa sempre estudar sem medo de ser feliz.
+
 A estrutura desse artigo vai ser dividida da seguinte maneira:
 
 1. Conhecendo os serviços REST;
+2. Criando seus próprios endpoints;
 2. [Configurando o ambiente de trabalho;](https://github.com/thiagomarquessp/httpartyforall/blob/master/Configurando_Ambiente.md)
 3. Criando arquivos de Feature;
 4. Criando arquivos de steps;
