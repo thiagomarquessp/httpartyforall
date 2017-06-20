@@ -1,0 +1,5 @@
+# Verbos HTTP REST
+
+A melhor definição que achei para API foi: "Interface de Programação de Aplicação, cujo acrônimo API provém do Inglês Application Programming Interface, é um conjunto de rotinas e padrões estabelecidos por um software para a utilização das suas funcionalidades por aplicativos que não pretendem envolver-se em detalhes da implementação do software, mas apenas usar seus serviços.". Fonte:  [wikipedia](https://pt.wikipedia.org/wiki/Interface_de_programa%C3%A7%C3%A3o_de_aplica%C3%A7%C3%B5es).
+
+Agora que entendemos um pouco sobre o que é uma API, vamos entender um pouco sobre REST ou RESTful e também achei uma definição interessante sobre o tema: "	A REST (Transferência do Estado Representativo) é pensada como uma imagem do design da aplicação se comportará: uma rede de sítios da Teia (um estado virtual), onde o utilizador progride com uma aplicação clicando em vínculos (transições do estado), tendo como resultado a página seguinte (que representa o estado seguinte da aplicação) que está sendo transferida ao utilizador e apresentada para seu uso.". Fonte: [wikipedia](https://pt.wikipedia.org/wiki/REST).
