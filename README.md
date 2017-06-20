@@ -12,7 +12,7 @@ Vou utilizar e auxiliar na criação de endpoints Fakes na própria máquina par
 
 A estrutura desse artigo vai ser dividida da seguinte maneira:
 
-1. Conhecendo os verbos Http REST;
+1. [Conhecendo os verbos Http REST](https://github.com/thiagomarquessp/httpartyforall/blob/master/VerbosHttpRest.md);
 2. [Configurando o ambiente de trabalho;](https://github.com/thiagomarquessp/httpartyforall/blob/master/Configurando_Ambiente.md)
 3. [Criando seu endpoint para estudos](https://github.com/thiagomarquessp/httpartyforall/blob/master/Fake_api.md);
 4. [Criando arquivos de Feature](https://github.com/thiagomarquessp/httpartyforall/blob/master/Criando_arquivos_Feature.md);
