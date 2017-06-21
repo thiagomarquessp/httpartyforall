@@ -2,6 +2,8 @@
 
 Bom galera, nas minhas andanças na internet, encontrei uma forma muito legal para gerar alguns endpoints para treinar a automação =).
 
+Vai ser uma criação bem básica, até mesmo pra não ficar colocando coisas a mais na cabeça de cada um, o importante é o conceito OK.
+
 Para criar o endpoint vamos precisar instalar o node e o json server via npm:
 
 ```ruby
@@ -20,13 +22,12 @@ brew install npm
 
 npm install -g json-server
 ```
-Depois o json server instalado, o que vamos fazer é criar uma pasta com um nome qualquer (vou chamar de fakeapi) e dentro dessa pasta eu vou criar um arquivo chamado endpoints.json da seguinte maneira:
+Depois o json server instalado, o que vamos fazer é criar uma pasta com um nome qualquer (vou chamar de fakeapi) e dentro dessa pasta eu vou criar um arquivo chamado endpoints.json. Esse endpoint será o /clientes e como eu não vou definir quais verbos ele vai atender, vai funcionar para todos, principalmente os que vamos estudar (POST, GET, PUT e DELETE) e vamos ter os seguintes atributos: nome, cpf, enereco, usuario e senha e vai ficar mais ou menos assim o nosso endpoint:
 
 ```ruby
 {
   "clientes": [
     {
-      "id": 1,
       "nome": "Nome Teste",
       "cpf": "123.456.789-0",
       "endereco": "Rua Teste dos teste",
