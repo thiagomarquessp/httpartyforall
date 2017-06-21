@@ -16,4 +16,4 @@ Endpoint        |   Verbo   |   Ação
 /clientes/{id}  |    PUT    | Edita algum paramêtro do cadastro do meu cliente com id = {id}
 /clientes/{id}  |  DELETE   | Deleta algum cliente com id = {id}
 ```
-Agora que entendemos mais ou menos como vai funcionar ou como vamos trabalhar, vamos seguir para a [configuração do nosso ecossistema](https://github.com/thiagomarquessp/httpartyforall/blob/master/Configurando_Ambiente.md)
+Agora que entendemos mais ou menos como vai funcionar ou como vamos trabalhar, vamos seguir para a [configuração do nosso ecossistema](https://github.com/thiagomarquessp/httpartyforall/blob/master/Configurando_Ambiente.md).
