@@ -6,13 +6,13 @@ Enfim, vamos precisar do ruby instalado na versão 2.2.2 ou superior. Para insta
 
 Windows:
 
-Necessário: rubyinstaller (http://rubyinstaller.org/downloads/).
+Necessário: [rubyinstaller](http://rubyinstaller.org/downloads/).
 
 Obs.: Quando se instala o ruby, será necessário a instalação do DevKit correspondente da versão que você instalou.
 
 Mac:
 
-Necessário: Baixar o Xcode pelo link: https://developer.apple.com/xcode/downloads/. Aprendi que sempre que instalar o SO, a primeira coisa será instalar o Xcode.
+Necessário: Baixar o Xcode pelo [link:](https://developer.apple.com/xcode/downloads/). Aprendi que sempre que instalar o SO, a primeira coisa será instalar o Xcode.
 
 Bem, depois do Xcode, vamos baixar o Homebrew via terminal com o comando:
 
@@ -20,11 +20,11 @@ Bem, depois do Xcode, vamos baixar o Homebrew via terminal com o comando:
 ruby -e “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)” .
 ```
 
-Para explicar o que é o homebrew basta dizer: “O Homebrew instala as coisas que você precisa que a Apple não forneceu para você.” - fonte: http://brew.sh/index_pt-br.html. Ou seja, é um gerenciador de pacotes.
+Para explicar o que é o homebrew basta dizer: “O Homebrew instala as coisas que você precisa que a Apple não forneceu para você.” - [fonte:](http://brew.sh/index_pt-br.html). Ou seja, é um gerenciador de pacotes.
 
 Reinicie a máquina (isso mesmo, para “completar as instalações”).
 
-Com o Homebrew instalado, será necessário instalar o “Qt” - Framework multiplataforma para desenvolvimento de interfaces gráficas - fonte: (http://pt.wikipedia.org/wiki/Qt) e serve basicamente para podermos utilizar o selenium como driver padrão de execução para os testes. Para instalar o Qt, é bem simples:
+Com o Homebrew instalado, será necessário instalar o “Qt” - Framework multiplataforma para desenvolvimento de interfaces gráficas - [fonte:](http://pt.wikipedia.org/wiki/Qt) e serve basicamente para podermos utilizar o selenium como driver padrão de execução para os testes. Para instalar o Qt, é bem simples:
 
 ```ruby
 brew install qt
@@ -95,10 +95,11 @@ source "https://rubygems.org"
 gem "cucumber"
 gem "faker"
 gem "httparty"
+gem "rspec"
 
 Agora, vamos rodar o comando "bundle install" para instalar as gems que farão parte do nosso projeto.
 ```
-Faker eu vou usar para criar dados aleatórios: ver [Faker no Capybara For All] (https://goo.gl/6TWqyP) para entendê-lo.
+Faker eu vou usar para criar dados aleatórios: ver [Faker no Capybara For All](https://goo.gl/6TWqyP) para entendê-lo.
 
 Obs.: Para entender o contexto do bundler basta entender que ele vai ler o arquivo Gemfile e vai procurar no rubygems as gems que eu citei e vai instalá-las com as suas dependências. O comando a seguir fara isso:
 
@@ -112,6 +113,7 @@ require "httparty"
 require "httparty/request"
 require "httparty/response/headers"
 require "faker"
+require "rspect"
 ```
 Onde, require "gem a ser utilizada" eu estou falando que para rodar esse projeto, eu estou utilizando essa gem.
 
