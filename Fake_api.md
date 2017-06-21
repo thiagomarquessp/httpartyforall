@@ -28,6 +28,7 @@ Depois o json server instalado, o que vamos fazer é criar uma pasta com um nome
 {
   "clientes": [
     {
+      "id": 1,
       "nome": "Nome Teste",
       "cpf": "123.456.789-0",
       "endereco": "Rua Teste dos teste",
