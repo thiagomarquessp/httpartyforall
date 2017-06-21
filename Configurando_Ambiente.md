@@ -113,7 +113,7 @@ require "httparty"
 require "httparty/request"
 require "httparty/response/headers"
 require "faker"
-require "rspect"
+require "rspec"
 ```
 Onde, require "gem a ser utilizada" eu estou falando que para rodar esse projeto, eu estou utilizando essa gem.
 
