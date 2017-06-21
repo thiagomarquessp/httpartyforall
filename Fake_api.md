@@ -74,4 +74,4 @@ Então basta abrir o navegador e ver se o endpoint ta funcionando colocando 'htt
 }
 ```
 
-OK, com o endpoint funcionando, bora [automatizar](https://github.com/thiagomarquessp/httpartyforall/blob/master/Criando_arquivos_Feature.md).
+OK, com o endpoint funcionando, bora [automatizar](https://github.com/thiagomarquessp/httpartyforall/blob/master/Exemplo_GET_feature_steps.md).
