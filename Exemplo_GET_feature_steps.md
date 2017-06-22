@@ -37,13 +37,14 @@ end
 
 Entao(/^o retorno dele será todos os clientes cadastrados$/) do
   puts @get_clientes.body
+  puts @get_clientes.code
   expect(@get_clientes.code).to eq 200
 end
 ```
 
 Bom, vamos entender o que fizemos:
 
-Criei uma variável chamada @get_clientes e dentro dela armazenei o verbo GET através do comando "HTTParty.get" + 'endpoint', ou seja, HTTParty.get 'http://localhost:3000/clientes' e esse é o conceito inicial, onde o verbo eu chamo dessa maneira no HTTParty, então vamos ter:
+1. Criei uma variável chamada @get_clientes e dentro dela armazenei o verbo GET através do comando "HTTParty.get" + 'endpoint', ou seja, HTTParty.get 'http://localhost:3000/clientes' e esse é o conceito inicial, onde o verbo eu chamo dessa maneira no HTTParty, então vamos ter:
 
 ```ruby
 HTTParty.get 'endpoint'
@@ -53,3 +54,10 @@ HTTParty.delete 'endpoint'
 HTTParty.patch 'endpoint'
 HTTParty.xpto 'endpoint'
 ```
+O verbo GET é o mais simples de todos, pois basta informar o endpoint que ele trás pra ti o resultado. Nos próximos verbos vamos ter detalhes a mais, mas isso fica pra depois, vamos nos concentrar aqui, nesse verbo.
+
+2. Eu coloquei pra printar na tela o body (corpo) da request só por osmoze e pra poder explicar aqui como a request vem =), que aliás, é igual vc colocando no postman, assim como printei o código da requisição, que no caso, vem 200 quando sucesso, 404 (Not found) ou 400 (Bad Request).
+
+3. Agora vem a validação com o expect, só que nesse caso, eu to validando o código da requisição, colocando na espera o valor esperado, que nesse caso é 200 e por isso o "eq 200" para que qualquer código diferente de 200 o teste passe a quebrar. Por isso a importância de você chamar o verbo e deixá-lo dentro de uma variável =).
+
+Apenas com isso, tu já consegue automatizar TODOS os verbos GET do lugar onde vc trabalha. Mas não para por aí, vamos para o verbo [POST](https://github.com/thiagomarquessp/httpartyforall/blob/master/Exemplo_POST_feature_steps.md)
