@@ -17,5 +17,5 @@ A estrutura desse artigo vai ser dividida da seguinte maneira:
 3. [Criando seu endpoint para estudos](https://github.com/thiagomarquessp/httpartyforall/blob/master/Fake_api.md);
 4. [Exemplo de Get Feature e Steps](https://github.com/thiagomarquessp/httpartyforall/blob/master/Exemplo_GET_feature_steps.md);
 5. [Exemplo de POST Feature e Steps](https://github.com/thiagomarquessp/httpartyforall/blob/master/Exemplo_POST_feature_steps.md);
-6. [Exemplo de PUT Feature e Steps]();
-7. [Exemplo de DELETE Feature e Steps]().
+6. [Exemplo de PUT Feature e Steps](https://github.com/thiagomarquessp/httpartyforall/blob/master/Exemplo_PUT_feature_steps.md);
+7. [Exemplo de DELETE Feature e Steps](https://github.com/thiagomarquessp/httpartyforall/blob/master/Exemplo_DELETE_feature_steps.md).
