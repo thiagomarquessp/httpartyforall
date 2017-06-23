@@ -6,7 +6,7 @@ Dado(/^que eu envie os parâmetros corretos para o endpoint clientes$/) do
     "usuario": Faker::Pokemon.name,
     "senha": Faker::Base.numerify('inicial####')
   }.to_json
-  @post_clientes = HTTParty.post 'http://localhost:3000/clientes',
+  @post_clientes = HTTParty.post 'http://localhost:3000/clientes/4',
     :body => @body,
     :headers => {
         "Content-Type" => 'application/json'
